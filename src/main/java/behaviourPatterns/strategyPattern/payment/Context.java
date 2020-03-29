@@ -1,4 +1,4 @@
-package behaviourPatterns.payment;
+package behaviourPatterns.strategyPattern.payment;
 
 public class Context {
     private PaymentStrategy paymentStrategy;

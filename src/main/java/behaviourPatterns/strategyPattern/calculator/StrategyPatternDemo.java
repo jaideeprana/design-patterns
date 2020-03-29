@@ -1,4 +1,4 @@
-package behaviourPatterns.calculator;
+package behaviourPatterns.strategyPattern.calculator;
 
 public class StrategyPatternDemo {
     public static void main(String[] args) {

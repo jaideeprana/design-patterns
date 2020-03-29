@@ -1,4 +1,4 @@
-package behaviourPatterns.compression;
+package behaviourPatterns.strategyPattern.compression;
 
 public class WinRar implements CompressionStrategy {
     @Override

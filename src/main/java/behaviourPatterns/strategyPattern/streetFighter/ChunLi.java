@@ -1,4 +1,4 @@
-package behaviourPatterns.streetFighter;
+package behaviourPatterns.strategyPattern.streetFighter;
 
 public class ChunLi implements SpecialMoveStrategy {
     @Override

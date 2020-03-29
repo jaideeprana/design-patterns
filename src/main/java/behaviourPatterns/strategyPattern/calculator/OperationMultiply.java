@@ -1,4 +1,4 @@
-package behaviourPatterns.calculator;
+package behaviourPatterns.strategyPattern.calculator;
 
 public class OperationMultiply implements OperationStrategy {
     @Override
