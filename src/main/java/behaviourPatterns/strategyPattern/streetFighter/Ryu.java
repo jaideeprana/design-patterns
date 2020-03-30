@@ -1,8 +1,12 @@
 package behaviourPatterns.strategyPattern.streetFighter;
 
-public class Ryu implements SpecialMoveStrategy {
+public class Ryu extends Fighter {
+    public Ryu(SpecialMoveStrategy specialMoveStrategy) {
+        super(specialMoveStrategy);
+    }
+
     @Override
-    public void performSpecialMove() {
-        System.out.println("Shoryuken executed");
+    public void punch() {
+        System.out.println("Throw a vicious and mean overhand right");
     }
 }

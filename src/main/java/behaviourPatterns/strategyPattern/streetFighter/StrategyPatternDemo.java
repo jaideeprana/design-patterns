@@ -2,13 +2,22 @@ package behaviourPatterns.strategyPattern.streetFighter;
 
 public class StrategyPatternDemo {
     public static void main(String[] args) {
-        Ryu ryu = new Ryu();
-        ChunLi chunLi = new ChunLi();
+        ShoryukenSpecialMoveStrategy shoryukenSpecialMoveStrategy = new ShoryukenSpecialMoveStrategy();
+        TornadoKickSpecialMoveStrategy tornadoKickSpecialMoveStrategy = new TornadoKickSpecialMoveStrategy();
 
-        Context context = new Context(ryu);
-        context.executeStrategy();
+        Fighter fighter = new Ryu(shoryukenSpecialMoveStrategy);
+        fighter.punch();
+        fighter.kick();
+        fighter.executeStrategy();
 
-        Context contextTwo = new Context(chunLi);
-        contextTwo.executeStrategy();
+        Fighter fighterTwo = new ChunLi(tornadoKickSpecialMoveStrategy);
+        fighterTwo.punch();
+        fighterTwo.kick();
+        fighterTwo.executeStrategy();
+
+        Fighter normalFighter = new Fighter(null);
+        normalFighter.punch();
+        normalFighter.kick();
+        normalFighter.executeStrategy();
     }
 }

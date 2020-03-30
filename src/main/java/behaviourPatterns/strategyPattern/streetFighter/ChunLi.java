@@ -1,8 +1,12 @@
 package behaviourPatterns.strategyPattern.streetFighter;
 
-public class ChunLi implements SpecialMoveStrategy {
+public class ChunLi extends Fighter {
+    public ChunLi(SpecialMoveStrategy specialMoveStrategy) {
+        super(specialMoveStrategy);
+    }
+
     @Override
-    public void performSpecialMove() {
-        System.out.println("Tornado kick executed");
+    public void kick() {
+        System.out.println("Throw a question mark kick to the head of the opponent");
     }
 }
