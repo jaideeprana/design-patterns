@@ -1,4 +1,4 @@
-package creationalPatterns.facadePattern.car;
+package structuralPatterns.facadePattern.car;
 
 public class FacadePatternDemo {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package creationalPatterns.facadePattern.car;
+package structuralPatterns.facadePattern.car;
 
 public class CarFacade {
 
