@@ -1,6 +1,6 @@
 package behaviourPatterns.visitorPattern.report;
 
-public class XmlReportVisitorIml implements XmlReportVisitor {
+public class OldAndDeprecatedXmlReportVisitor implements XmlReportVisitor {
   @Override
   public String visit(JS js) {
     return "XML format for JS";
