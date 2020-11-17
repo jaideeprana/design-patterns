@@ -1,6 +1,6 @@
 package behaviourPatterns.visitorPattern.shoppingCart;
 
-public class ShoppingCartImpl implements ShoppingCartVisitor {
+public class ShoppingCartVisitorImpl implements ShoppingCartVisitor {
   @Override
   public int visit(Computer computer) {
     if (computer.getCost() > 100) {
