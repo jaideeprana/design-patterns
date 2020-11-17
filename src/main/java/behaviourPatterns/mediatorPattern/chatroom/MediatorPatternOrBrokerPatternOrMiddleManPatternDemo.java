@@ -1,5 +1,9 @@
 package behaviourPatterns.mediatorPattern.chatroom;
 
+/*
+ Reduces the communication complexity b/w various objects.
+ The pattern provides a mediator that handles all the communication b/w various classes.
+*/
 public class MediatorPatternOrBrokerPatternOrMiddleManPatternDemo {
   public static void main(String[] args) {
    ChatMediator mediator = new ChatMediatorImpl();
