@@ -1,5 +1,8 @@
 package creationalPatterns.prototypePattern.sheep;
 
+/*
+ No need to create repetitive objects for manipulation simply create clones of your desired object
+*/
 public class prototypePatternDemo {
   public static void main(String[] args) {
     Sheep sillySheep = new Sheep();
