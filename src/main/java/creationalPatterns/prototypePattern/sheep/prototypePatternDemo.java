@@ -1,7 +1,9 @@
 package creationalPatterns.prototypePattern.sheep;
 
 /*
- No need to create repetitive objects for manipulation simply create clones of your desired object
+ No need to create repetitive objects for manipulation simply create clones of your desired object.
+ or
+ If the object or some of the values are coming from DB why create again from DB.
 */
 public class prototypePatternDemo {
   public static void main(String[] args) {
