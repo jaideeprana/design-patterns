@@ -11,6 +11,6 @@ public class prototypePatternDemo {
     System.out.println(sillySheep);
 
     System.out.println("Original sub-class: " + sillySheep.hashCode());
-    System.out.println("Original sub-class: " + clonedSillySheep.hashCode());
+    System.out.println("Cloned sub-class: " + clonedSillySheep.hashCode());
   }
 }
